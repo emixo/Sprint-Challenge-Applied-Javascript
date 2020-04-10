@@ -17,3 +17,27 @@
     <div class="right-button"> > </div>
   </div>
 */
+
+const createCarousel = () => {
+  const carousel = document.createElement("div")
+  const leftButton = document.createElement("div")
+  const image1 = document.createElement("img")
+  const image2 = document.createElement("img")
+  const image3 = document.createElement("img")
+  const image4 = document.createElement("img")
+  const rightButton = document.createElement("div")
+
+  carousel.appendChild(leftButton)
+  carousel.appendChild(image1)
+  carousel.appendChild(image2)
+  carousel.appendChild(image3)
+  carousel.appendChild(image4)
+  carousel.appendChild(rightButton)
+
+
+
+  return carousel
+} 
+
+
+console.log(createCarousel())
